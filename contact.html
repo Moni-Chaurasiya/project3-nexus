@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="contact.css">
+  <title>CampusExtraVaganza</title>
+</head>
+
+<body>
+
+  <div>
+    <div class="Upperbar">
+      <div class="L">
+        <img class="mail" width="30px" height="30px" src="W2.png" ,alt="">
+        <div class="mail1">campusextravaganza@gmail.com</div>
+      </div>
+      <div class="R">
+        <img class="phone" width="30px" height="30px" src="W3.png" ,alt="">
+        <div class="phone1">+91 7039403687</div>
+      </div>
+    </div>
+    <nav class=" navigation1">
+
+      <div class="Nav">
+        <div>
+          <ul class="navbar1">
+            <li class="logo"><span class="logo1"><span class="AA">Campus</span><span class="BB">Extra</span><span
+                  class="CC">Vaganza</span></span></li>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./service.html">Service</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./feedback.html">Feedback</a></li>
+          </ul>
+        </div>
+        <div class="logSign">
+          <a href="./logSign.html"><button class="btn btn-2" onclick="showSignup()">Signup</button></a>
+          <a href="./logSign.html"> <button class="btn btn-1" onclick="showLogin()">Login</button></a>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+
+  <div class="smallNav">
+    <li><a href="./home.html">Home</a></li>
+    <li><a href="./about.html">About Us</a></li>
+    <li><a href="./service.html">Service</a></li>
+    <li><a href="./contact.html">Contact</a></li>
+    <li><a href="./feedback.html">Feedback</a></li>
+    <li><a href="./logSign.html">Login & Signup</a></li>
+
+  </div>
+  <div class="break"></div>
+
+  <div class="container0">
+    <div class="container1">
+      <div class="containerA">
+        <p class="para1"> “We're Here to Help!”</p>
+        <p class="para1"> “Reach out to us anytime and we'll happily answer your questions,” </p>
+
+      </div>
+      <div class="containerB">
+        <img class="Img1" src="W7.png" alt="">
+      </div>
+    </div>
+    <div class="container2">
+      <h1>Contact Us</h1>
+      <form action="http://localhost:3000/submit" method="post" id="feedbackForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telephone">Contact:</label>
+        <input type="tel" id="number" name="telephone" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <label for="rating">Subject:</label>
+        <select id="rating" name="rating" required>
+          <option value="" disabled selected>Subject:</option>
+          <option value="1">Development</option>
+          <option value="2">Feedback</option>
+          <option value="3">Design</option>
+          <option value="4">Discount</option>
+          <option value="5">other</option>
+        </select>
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+        <input id="click" type="submit" method="post" value="Submit">
+      </form>
+    </div>
+  </div>
+
+  <div class="main7">
+    <div class="A">CampusExtraVaganza--<span class="S">---LTCE Event Management Company</span></div>
+    <div class="B">
+      <div class="G">
+        <div class="C">
+          <span class="D"><a href="./home.html">Home</a></span>
+          <span class="D"><a href="./about.html">About Us</a></span>
+          <span class="D"><a href="./service.html">Service</a></span>
+          <span class="D"><a href="./contact.html">Contact</a></span>
+          <span class="D"><a href="./feedback.html">feedback form </a></span>
+        </div>
+
+        <div class="C">
+          <span class="D">Help Centre</span>
+          <span class="D">Jobs</span>
+          <span class="D">Privacy policy</span>
+          <span class="D">Legal Notices</span>
+        </div>
+      </div>
+
+      <div class="H">
+        <div class="C">
+          <span class="D">Account</span>
+          <span class="D">feedback</span>
+          <span class="D">Corporate Information</span>
+          <span class="D">Only on CampusExtraVaganza</span>
+        </div>
+
+        <div class="C">
+          <span class="D">Media Centre</span>
+          <span class="D">Terms of Use</span>
+          <span class="D">Social Media</span>
+        </div>
+      </div>
+
+    </div>
+    <p class="btn5"><span class="Eng"><a href="./logSign.html">Login</a></span></p>
+    <div class="lowC">
+      <div class="L">
+        <img class="mail" width="30px" height="30px" src="W2.png" ,alt="">
+        <div class="mail1">campusextravaganza@gmail.com</div>
+      </div>
+      <div class="R">
+        <img class="phone" width="30px" height="30px" src="W3.png" ,alt="">
+        <div class="phone1">+91 7039403687</div>
+      </div>
+    </div>
+    <div class="lowC">
+      <div class="L">
+        <img class="mail" width="30px" height="30px" src="L2.png" ,alt="">
+        <div class="mail1"><a href="https://www.youtube.com/@Moni.Chaurasiya">YouTube</a></div>
+      </div>
+      <div class="R">
+        <img class="phone" width="30px" height="30px" src="L1.png" ,alt="">
+        <div class="phone1"><a href="https://www.linkedin.com/in/moni-chaurasiya">LinkedIn</a></div>
+      </div>
+      <div class="R">
+        <img class="phone" width="30px" height="30px" src="L3.png" ,alt="">
+        <div class="phone1"><a href="https://github.com/Moni-Chaurasiya">GitHub</a></div>
+      </div>
+    </div>
+    <span class="E">Copyright © 2020 CampusExtraVaganza</span>
+  </div>
+
+  <script src="contact.js"></script>
+ 
+
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+ .MainImg {
+   width: 100vw;
+   position: relative;
+ }
+
+ .head {
+   position: absolute;
+   width: 25vw;
+   font-size: 5vw;
+   color: white;
+   top: 35%;
+   left: 80%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   border: 5px solid purple;
+ }
+
+ .head1 {
+   position: absolute;
+   width: 50vw;
+   font-size: 3vw;
+   color: white;
+   top: 80%;
+   left: 75%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   font-style: italic;
+   font-family: 'Times New Roman', Times, serif;
+
+ }
+
+ .body1 {
+   position: relative;
+   display: inline-block;
+ }
+
+ .body1 img {
+   display: block;
+   height: auto;
+
+ }
+
+ .body2 {
+   width: 100vw;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+
+ }
+
+ .body2 p {
+   color: rgb(214, 229, 234);
+   width: 60vw;
+   font-size: 2vw;
+   margin-left: 20px;
+ }
+
+ .body2 h1 {
+   color: rgb(29, 171, 228);
+   font-size: 3vw;
+   margin-left: 20px;
+
+ }
+
+ .D1 {
+   margin-left: 3vw;
+   margin-top: 4vw;
+   width: 25vw;
+   border-radius: 15px;
+ }
+
+ .D1:hover {
+   width: 28vw;
+ }
+
+ .Body3 {
+   height: auto;
+   width: 100vw;
+   color: rgb(236, 19, 236);
+   text-align: center;
+   background-color: rgb(30, 1, 58);
+ }
+
+ .Body3 p {
+   font-size: 1.5vw;
+   width: 80vw;
+   margin-left: 10vw;
+ }
+
+ .Body3 h1 {
+   color: rgb(224, 112, 224);
+   padding-top: 30px;
+   font-family: 'Times New Roman', Times, serif
+ }
+
+ .skill {
+   margin-bottom: 40px;
+   border: 3px solid white;
+   border-radius: 15px;
+   width: 20vw;
+ }

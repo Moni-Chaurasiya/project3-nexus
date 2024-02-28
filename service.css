@@ -1,0 +1,322 @@
+.MainImg {
+  width: 100vw;
+  position: relative;
+  opacity:0.6;
+
+}
+
+.head {
+  position: absolute;
+  width: 26vw;
+  font-size: 5vw;
+  color: white;
+  top: 35%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: 5px solid rgb(8, 172, 236);
+  background-color:rgb(1, 1, 47);
+  border-radius: 20px;
+
+}
+
+.head1 {
+  position: absolute;
+  width: 50vw;
+  font-size: 3vw;
+  color: white;
+  top: 80%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.body1 {
+  position: relative;
+  display: inline-block;
+}
+
+.body1 img {
+  display: block;
+  height: auto;
+}
+
+.body4 {
+  width: 100vw;
+  height: auto;
+  background-color: skyblue;
+
+}
+
+.body4 h1 {
+  font-size: 2.5vw;
+  text-align: center;
+  color: rgb(2, 61, 86);
+}
+
+.body4 .P4 {
+  text-align: center;
+  width: 55vw;
+  height: auto;
+  font-size: 1.5vw;
+  background-color: purple;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  color: white;
+  border: 4px solid black;
+}
+
+.P4 p {
+  width: 50vw;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-left: 30px;
+
+}
+
+.CSS {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width:600px) {
+  .CSS {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .C2 {
+    width: 60vw;
+    margin-left: 28vw;
+    margin-bottom: 30px;
+  }
+
+  .Css {
+    width: 60vw;
+  }
+
+  .body4.P4 {
+    margin-left: 20vw;
+  }
+
+  .P {
+    margin-left: 15vw;
+  }
+
+  .P4 p {
+    width: 40vw;
+  }
+
+}
+
+.Css {
+  margin-top: 4vw;
+  width: 35vw;
+  margin-left: 3vw;
+  border-radius: 20px;
+}
+
+.body5 h1 {
+  font-size: 2.5vw;
+  text-align: center;
+  color: rgb(2, 122, 174);
+}
+
+.F1 {
+  width: 40vw;
+
+}
+
+.F2 {
+  width: 40vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 40vh;
+  border: 4px solid rgb(24, 176, 236);
+}
+
+.F3 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-left: 7vw;
+}
+
+.body5 {
+  margin-bottom: 40px;
+}
+
+
+.main6 {
+  background-color: rgb(15, 14, 14);
+  height: 950px;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: static;
+
+
+
+}
+
+.main7 {
+  background-color: black;
+  height: 450px;
+  max-width: 100vw;
+  position: static;
+
+}
+
+.text9 {
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  margin-top: 10px;
+  height: 100px;
+  justify-content: center;
+
+}
+
+@media (max-width:780px){
+  .text9{
+    font-size:25px;
+  }
+}
+
+.TT {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+
+}
+
+.T-1,
+.T-2,
+.T-3,
+.T-4,
+.T-5,
+.T-6,
+.TA,
+.TB,
+.TC,
+.TD,
+.TE,
+.TF {
+  height: 90px;
+  background-color: rgb(50, 50, 50);
+  font-size: 24px;
+  font-weight: lighter;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+
+  align-items: center;
+  padding-left: 24px;
+  width: 75vw;
+  margin-top: 10px;
+  word-wrap: unset;
+
+}
+
+.TA,
+.TB,
+.TC,
+.TD,
+.TE,
+.TF {
+  display: none;
+  background-color: rgb(74, 74, 74);
+  color: white;
+}
+
+.A1 {
+  margin-top: 30px;
+}
+
+.T-1:hover,
+.T-2:hover,
+.T-3:hover,
+.T-4:hover,
+.T-5:hover,
+.T-6:hover {
+  background-color: rgb(66, 65, 65);
+}
+
+.t1 {
+  width: 70vw;
+}
+
+.btn4 {
+  background-color: red;
+  width: 16rem;
+  height: 60px;
+  border-radius: 5px;
+  border: 2px solid red;
+  color: white;
+  font-size: 0.7cm;
+  font-weight: bold;
+  padding-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+
+}
+
+.icon1 {
+  font-size: 68px;
+
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.icon2 {
+  font-size: 68px;
+
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.icon3 {
+  font-size: 68px;
+
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.icon4 {
+  font-size: 68px;
+
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.icon5 {
+  font-size: 68px;
+
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.icon6 {
+  font-size: 68px;
+
+  font-family: 'Courier New', Courier, monospace;
+
+}

@@ -1,0 +1,318 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+}
+
+body {
+    background: url("LogSign.jpg");
+    background-repeat: no-repeat;
+
+    background-size: max(100vw, 100vh);
+    background-position: center top;
+
+
+}
+
+.btn {
+    display: none;
+    padding-bottom: 15px;
+    padding-top: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 5px;
+    font-size: 28px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    height: 52px;
+}
+
+.butt1 {
+    display: inline-block;
+    padding-bottom: 15px;
+    padding-top: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 5px;
+    font-size: 28px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    height: 52px;
+}
+
+.logSign {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15vw;
+}
+
+@media (min-width: 400px) {
+
+    .login-page,
+    .signup-page,
+    .forgotPassword-page {
+        display: none;
+        background-color: rgb(2, 2, 67);
+        border: 3px solid #007bff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        margin: 0 auto;
+        overflow: hidden;
+
+
+    }
+}
+
+@media (max-width: 400px) {
+
+    .login-page,
+    .signup-page,
+    .forgotPassword-page {
+        display: none;
+        background: transparent;
+        background-color: rgb(2, 2, 67);
+        border: 3px solid #007bff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        margin: 0 auto;
+        overflow: hidden;
+        margin-top: 16px;
+
+
+    }
+}
+
+
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #007bff;
+
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 3px solid #007bff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #97c8fc;
+}
+
+.btn-1 {
+    background-color: palevioletred;
+    color: black;
+    border: 3px solid #007bff;
+}
+
+.btn-2 {
+    background-color: rgb(135, 223, 4);
+    color: black;
+    border: 3px solid #007bff;
+}
+
+.btn-1:hover {
+    background-color: rgb(225, 65, 118);
+}
+
+.btn-2:hover {
+    background-color: rgb(94, 154, 3);
+}
+
+
+.box {
+    padding-left: 5px;
+    color: #007bff;
+
+}
+
+
+.box:hover {
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    width: 100%;
+
+}
+
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.box3 {
+    padding-right: 5px;
+}
+
+.myImage {
+    width: 28px;
+    height: auto;
+    cursor: pointer;
+    position: right top;
+    float: inline-end;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+}
+
+.myImage2 {
+    width: 96px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.myImage3 {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    position: left top;
+    float: inline-start;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    display: none;
+}
+
+
+.btn-3 {
+    background-color: rgb(168, 97, 3);
+    color: black;
+    border: 3px solid #007bff;
+}
+
+
+.btn-3:hover {
+    background-color: rgb(139, 139, 1);
+}
+
+
+h4 {
+    color: yellow;
+}
+
+
+::placeholder {
+    color: #022852;
+}
+
+@media (max-width: 980px) {
+
+    #sidemenu li a {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        text-align: center;
+        margin-top: 5px;
+
+    }
+
+    .myImage3 {
+        display: block;
+    }
+
+    li {
+        display: none;
+    }
+
+    nav button {
+        float: inline-end;
+    }
+
+    .navbar #sidemenu {
+        background-color: rgb(2, 61, 84);
+        border: 2px solid #007bff;
+        border-radius: 10px;
+        position: fixed;
+        top: 75px;
+        margin-top: 60px;
+        left: 0;
+        width: 150px;
+        height: 100vh;
+        padding-top: 50px;
+        display: none;
+    }
+
+    .navbar li {
+        float: left;
+        list-style: none;
+        padding: 6px;
+        padding-bottom: 5px;
+        display: block;
+        margin-right: 10px;
+        text-decoration: none;
+        font-size: x-large;
+        color: #e3e8ed;
+        position: relative;
+    }
+
+    li:hover {
+        text-decoration: underline;
+        cursor: pointer;
+
+    }
+
+
+    .container {
+        padding-top: 10px;
+    }
+
+    .myImage4 {
+        display: block;
+        width: 28px;
+        height: auto;
+        cursor: pointer;
+        position: right top;
+        float: top;
+        border: 2px solid #007bff;
+        border-radius: 5px;
+        margin-left: 32px;
+        margin-top: 5px;
+    }
+
+    .navigation li {
+        float: left;
+        list-style: none;
+        padding: 6px;
+        padding-bottom: 5px;
+        display: none;
+        margin: 15px;
+        text-decoration: none;
+        font-size: xx-large;
+        color: #007bff;
+        position: relative;
+    }
+
+}
+
+
+
+@media (min-width: 980px) {
+    .myImage4 {
+        display: none;
+
+    }
+
+    #sidemenu li a {
+        display: none;
+    }
+}

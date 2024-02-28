@@ -1,0 +1,152 @@
+.container0 {
+
+    height: auto;
+    width: 100vw;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: #061148;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    background-color: rgb(3, 158, 219);
+    border-radius: 20px;
+    height: 95vh;
+    margin-top: 5vh;
+    margin-left: 2vw;
+    margin-bottom: 40px;
+}
+
+.containerA {
+    color: black;
+    font-weight: 600;
+    font-size: 28px;
+
+    height: 30vh;
+    width: 400px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    justify-content: center;
+    margin-left: 6vw;
+}
+
+@media (min-width:800) and (max-width:1100px) {
+    .containerA {
+        width: 300px;
+    }
+}
+
+.containerB {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid rgb(3, 3, 37);
+    border-radius: 20px;
+    margin-left: 6vw;
+    margin-top: 3vw;
+    width: 27vw;
+    height: 25vw;
+}
+
+.Img1 {
+    border-radius: 20px;
+    height: 25vw;
+    width: 27vw
+}
+
+.container2 {
+    width: 30vw;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border: 4px solid #007bff;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+
+}
+
+h1 {
+    text-align: center;
+    color: #3a98fd;
+    font-size: 32px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #007bff;
+    font-size: x-large;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: skyblue;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: rgb(4, 102, 141);
+    color: white;
+    padding: 10px 20px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 11vw;
+    width: 150px
+}
+
+input[type="submit"]:hover {
+    background-color: #8f037a;
+}
+
+input[type="submit"]:focus {
+    outline: none;
+}
+
+#rating {
+    color: #061148;
+    font-size: large;
+}
+
+@media (max-width:800px) {
+    .container0 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+
+    .container1 {
+        width: 80vw;
+        height: auto;
+        margin-left: 10vw;
+    }
+
+    .container2 {
+        width: 80vw;
+    }
+
+    .containerB {
+        margin-left: 25vw;
+    }
+
+    .containerA {
+        height: auto;
+    }
+
+}
