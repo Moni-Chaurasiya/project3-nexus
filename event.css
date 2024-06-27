@@ -1,0 +1,638 @@
+body {
+    background-color: black;
+}
+
+.left {
+    width: 480px;
+    height: auto;
+
+
+}
+
+.right {
+
+    width: 75vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(36, 35, 35, 0.651);
+    position: relative;
+
+}
+
+.Master {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+@media (max-width:1000px) {
+    .Master {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right,
+    .left,
+    .home,
+    .library {
+        width: 100vw;
+    }
+
+    div.scrollbar {
+        margin-left: 25vw;
+        width: 50vw;
+    }
+
+}
+
+.home {
+    height: auto;
+    width: auto;
+    background-color: rgb(44, 43, 43);
+    margin: 3px;
+    border-radius: 6px;
+}
+
+div.library {
+
+    width: auto;
+    background-color: rgba(17, 17, 17, 0.651);
+    margin: 3px;
+    border-radius: 6px;
+
+
+
+}
+
+.li1,
+.li2,
+.li3 {
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    list-style: none;
+
+}
+
+.ul1 {
+    margin-left: 20px;
+    padding-bottom: 10px;
+
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ul1 li:hover {
+    background-color: grey;
+    cursor: pointer;
+    padding-left: 8px;
+}
+
+.img1,
+.img2,
+.img3 {
+    width: 28px;
+    padding-right: 20px;
+}
+
+.img4 {
+    width: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.logo {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.plus {
+    font-size: xx-large;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 150px;
+
+}
+
+.lib {
+    display: flex;
+    flex-direction: row;
+}
+
+.div1 {
+    height: auto;
+    width: 50vw;
+    background-color: rgb(32, 32, 32);
+    margin-left: 10px;
+    border-radius: 6px;
+    padding-bottom: 20px;
+}
+
+.div2 {
+    height: auto;
+    width: 50vw;
+    background-color: rgb(32, 32, 32);
+    margin-left: 10px;
+    margin-top: 40px;
+    border-radius: 6px;
+    padding-bottom: 20px;
+}
+
+.para1 {
+    color: white;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+.para2 {
+    color: white;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    margin-left: 20px;
+
+}
+
+.btn2 {
+    height: 40px;
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 600;
+
+}
+
+.btn3 {
+    height: 40px;
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 600;
+}
+
+div.scrollbar {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 300px;
+
+
+}
+
+.EventPlaylists {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 80vh;
+    margin-top: 20px;
+}
+
+
+.footer1 {
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+
+.list1 {
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.L1,
+.L2,
+.L3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.globle {
+    color: white;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(16, 16, 16);
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+
+.english {
+    margin-left: 5px;
+    font-size: large;
+    font-weight: 600;
+}
+
+
+.header {
+
+    width: 75vw;
+    height: 80px;
+    display: flex;
+    align-self: center;
+    background-color: rgb(11, 11, 11);
+    z-index: 10;
+
+}
+
+@media (max-width:1000px) {
+    .header {
+        width: 100vw;
+    }
+}
+
+.btn4 {
+    display: flex;
+    align-self: center;
+    background-color: rgb(13, 13, 13);
+    border: 2px solid rgb(13, 13, 13);
+    height: 37px;
+    width: 40px;
+    margin-left: 10px;
+    border-radius: 18px;
+}
+
+.head1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    z-index: 10;
+}
+
+.head3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.btn7 {
+    color: white;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(75, 75, 75);
+    border: rgba(28, 28, 28, 0.651);
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 600;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.btn8 {
+    width: 200px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 600;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.btn7:hover {
+    background-color: rgb(45, 45, 45);
+}
+
+.btn8:hover {
+    background-color: rgb(188, 186, 186);
+}
+
+
+div.playlist {
+    color: white;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.card1 {
+    width: 400px;
+    height: 600px;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: rgb(36, 36, 36);
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.I1 {
+    margin-left: 70px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.H1 {
+    font-weight: 400;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+}
+
+.P1 {
+    color: gray;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+}
+
+.play {
+    height: 60px;
+    width: 160px;
+    background-color: rgb(9, 158, 217);
+    border: 2px solid rgb(2, 97, 134);
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 520px;
+    display: none;
+    color: black;
+    font-size: x-large;
+}
+
+.Best {
+    font-size: xx-large;
+    color: rgb(6, 134, 185);
+    margin-left: 20px;
+}
+
+.card1:hover {
+    .play {
+        display: block;
+    }
+
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width:1000px) {
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+
+}
+
+
+
+
+.PlayBar {
+    height: 120px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Slogen {
+    font-size: 40px;
+    color: rgb(20, 179, 243);
+    text-align: center;
+}
+
+.question {
+    font-size: 40px;
+    color: rgb(252, 254, 254);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.events {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    color: yellow;
+    font-size: x-large;
+}
+
+.events li {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.events li:hover {
+    background-color: rgb(4, 147, 203);
+    color: black;
+    font-weight: bold;
+}
+
+.AllEvents {
+    text-align: center;
+
+    font-size: 25px;
+    background-color: rgb(44, 44, 44);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    border: 4px solid black;
+}
+
+.wed {
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid rgb(48, 175, 225);
+}
+
+.IM {
+    width: 30vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 90vh;
+    margin-left: 30px;
+    background-color: rgb(1, 36, 50);
+}
+
+.Info {
+    width: 60vw;
+    background-color: rgb(36, 36, 36);
+    border-radius: 40px;
+    margin-left: 3vw;
+}
+
+.wedding {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+@media (max-width:1000px) {
+   
+    .wedding {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .IM{
+        width: 80vw;
+        margin-bottom: 30px;
+      
+    }
+    
+    }
+
+  
+
+form {
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40vw;
+    margin-left: 9vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 70vh;
+
+    border: 2px solid rgb(26, 143, 189);
+
+}
+
+
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: rgb(2, 149, 207);
+
+}
+
+input,
+select,
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(28, 125, 164);
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: grey;
+}
+
+.submit {
+    background-color: rgb(17, 187, 254);
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    font-size: x-large;
+    width: 200px;
+    margin-left: 15vw;
+}
+
+button:hover {
+    background-color: rgb(4, 153, 211);
+}
+
+#qrModal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    background-color: rgb(8, 147, 202);
+    border: 2px solid rgb(8, 8, 105);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+#closeModal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: xx-large;
+}
+
+.payment {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.payment h2 {
+    text-align: center;
+    color: magenta;
+}
+
+.payment form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgb(31, 30, 30);
+    height: auto;
+}
+
+.payment label {
+    display: block;
+    margin: 10px 0;
+}
+
+.payment input[type="text"],
+.payment input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    box-sizing: border-box;
+}
+
+.payment input[type="submit"] {
+    background-color: rgb(29, 149, 197);
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.payment input[type="submit"]:hover {
+    background-color: skyblue;
+}
